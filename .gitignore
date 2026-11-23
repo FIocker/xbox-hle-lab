@@ -1,0 +1,23 @@
+# binaries and game data never enter this repository
+*.exe
+*.dll
+*.lib
+*.pdb
+*.bin
+*.zip
+*.7z
+*.iso
+*.xvd
+*.rpf
+*.ttpf
+*.dmp
+*.log
+
+# local lab state
+target/
+dump/
+quarantine/
+vm/*.json
+notes/watch/state.json
+notes/watch/latest.json
+notes/watch/deltas.md
